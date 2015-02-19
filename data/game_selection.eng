@@ -1,0 +1,7 @@
+[
+('World\nChampionship\n2014', 'WorldChamp2014.pgn', ['Anand', 'Carlsen']),
+('World\nChampionship\n2013', 'WorldChamp2013.pgn', ['Anand', 'Carlsen']),
+('World\nChampionship\n2012', 'WorldChamp2012.pgn', ['Anand', 'Gelfand']),
+('World\nChampionship\n2010', 'WorldChamp2010.pgn', ['Anand', 'Topalov']),
+('World\nChampionship\n2008', 'WorldChamp2008.pgn', ['Anand', 'Kramnik'])
+]

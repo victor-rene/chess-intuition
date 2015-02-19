@@ -1,0 +1,9 @@
+In the game selection screen, select an event from the list on the left.
+The players will shown. Click on a player picture to display biographic
+information. On the right panel, select a game and click the load button
+at the bottom.
+
+During a game you can click the switch button to alternate between learn
+mode and play mode. In learning mode, you follow the moves and try to
+remember them. In the playing mode, you replay those moves as accurately
+as possible to get the best score. Sorces are ranked from S to E.
