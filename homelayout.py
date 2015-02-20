@@ -14,27 +14,27 @@ class HomeLayout(RelativeLayout):
 
     def __init__(self, **kwargs):
         super(HomeLayout, self).__init__(**kwargs)
-        self.img_1 = Image(source='img/anand.jpg', size_hint=(1, .2),
-            pos_hint={'center_x': .5, 'center_y': .85})
-        self.lbl_1 = Label(text='[size=24]Vishy Anand Chess Champion[/size]',
+        # self.img_1 = Image(source='img/anand.jpg', size_hint=(1, .2),
+            # pos_hint={'center_x': .5, 'center_y': .85})
+        self.lbl_1 = Label(text='Chess Intuition',
             size_hint=(1, .2),
-            pos_hint={'center_x': .5, 'center_y': .7}, font='font/Ubuntu-B.ttf',
-            markup=True)
+            pos_hint={'center_x': .5, 'center_y': .8}, font='font/Ubuntu-B.ttf',
+            )
         self.img = Image(source='img/logiqub_128.png', size_hint=(1. ,.2),
-            pos_hint={'center_x': .5, 'center_y': .5})
+            pos_hint={'center_x': .5, 'center_y': .6})
         self.btn_about = IconButton(text='About', size_hint=(.3, .1),
-            pos_hint={'center_x': .25, 'center_y': .3})
+            pos_hint={'center_x': .25, 'center_y': .4})
         self.btn_about.bind(on_release=self.show_about)
         self.btn_help = IconButton(text='How to use', size_hint=(.3, .1),
-            pos_hint={'center_x': .25, 'center_y': .15})
+            pos_hint={'center_x': .25, 'center_y': .25})
         self.btn_help.bind(on_release=self.show_help)
         self.btn_games = IconButton(text='Game list', size_hint=(.3, .1),
-            pos_hint={'center_x': .75, 'center_y': .3})
+            pos_hint={'center_x': .75, 'center_y': .4})
         self.btn_games.bind(on_release=self.show_games)
         self.btn_credits = IconButton(text='Credits', size_hint=(.3, .1),
-            pos_hint={'center_x': .75, 'center_y': .15})
+            pos_hint={'center_x': .75, 'center_y': .25})
         self.btn_credits.bind(on_release=self.show_credits)
-        self.add_widget(self.img_1)
+        # self.add_widget(self.img_1)
         self.add_widget(self.lbl_1)
         self.add_widget(self.img)
         self.add_widget(self.btn_about)

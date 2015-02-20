@@ -17,23 +17,23 @@ class SplashLayout(RelativeLayout):
 
     def __init__(self, **kwargs):
         super(SplashLayout, self).__init__(**kwargs)
-        self.img_1 = Image(source='img/anand.jpg', size_hint=(1, .2),
-            pos_hint={'center_x': .5, 'center_y': .85})
-        self.lbl_1 = Label(text='[size=24]Vishy Anand Chess Champion[/size]',
+        # self.img_1 = Image(source='img/anand.jpg', size_hint=(1, .2),
+            # pos_hint={'center_x': .5, 'center_y': .85})
+        self.lbl_1 = Label(text='Chess Intuition',
             size_hint=(1, .2),
-            pos_hint={'center_x': .5, 'center_y': .7}, font='font/Ubuntu-B.ttf',
-            markup=True)
+            pos_hint={'center_x': .5, 'center_y': .8}, font='font/Ubuntu-B.ttf',
+            )
         self.img_2 = Image(source='img/logiqub_128.png', size_hint=(1, .2),
-            pos_hint={'center_x': .5, 'center_y': .45})
-        self.lbl_2 = Label(text='[size=24]by logiqub.com[/size]',
+            pos_hint={'center_x': .5, 'center_y': .55})
+        self.lbl_2 = Label(text='by logiqub.com',
             size_hint=(1, .2),
-            pos_hint={'center_x': .5, 'center_y': .3}, font='font/Ubuntu-B.ttf',
-            markup=True)
+            pos_hint={'center_x': .5, 'center_y': .4}, font='font/Ubuntu-B.ttf',
+            )
         self.pb = ProgressBar(max=100, size_hint=(1, .2),
-            pos_hint={'center_x': .5, 'center_y': .1})
+            pos_hint={'center_x': .5, 'center_y': .2})
         self.btn = IconButton(text='Start', size_hint=(.5, .1),
-            pos_hint={'center_x': .5, 'center_y': .1})
-        self.add_widget(self.img_1)
+            pos_hint={'center_x': .5, 'center_y': .2})
+        # self.add_widget(self.img_1)
         self.add_widget(self.lbl_1)
         self.add_widget(self.img_2)
         self.add_widget(self.lbl_2)

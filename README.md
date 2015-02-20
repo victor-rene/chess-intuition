@@ -1,6 +1,6 @@
-# vacc
-Vishy Anand Chess Champion
-==========================
+# chess-intuition
+Chess Intuition
+===============
 
 About
 -----
@@ -22,10 +22,12 @@ and vision, by forcing you to recall ideas from elite games.
 
 Screenshots
 -----------
-![02.png](https://github.com/victor-rene/vacc/raw/master/screenshot/02.png "Event/Game selection")
-![03.png](https://github.com/victor-rene/vacc/raw/master/screenshot/03.png "Game viewer")
+![02.png](https://github.com/victor-rene/chess-intuition/raw/master/screenshot/02.png "Event/Game selection")
+![03.png](https://github.com/victor-rene/chess-intuition/raw/master/screenshot/03.png "Game viewer")
 
 Known issues
 ------------
-The application is optimized for a resolution of 800x600. Some work must be
-done to accomodate higher resolution.
+ * The application is optimized for a resolution of 800x600. Some work must be
+   done to accomodate display of popups at higher resolution.
+ * The score isn't immediately refreshed on the game list after a new
+   performance.
