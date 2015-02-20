@@ -167,7 +167,7 @@ class Chessgrid(FloatLayout):
         self.lay_ranks = StackLayout(pos_hint={'x':0, 'y':.1}, size_hint=[.1,.9],
             orientation='tb-lr')
         for i in range(8):
-            self.lay_ranks.add_widget(Label(text=str(8-i), size_hint=[1, 1./8]))
+            self.lay_ranks.add_widget(Label(text=str(8-i), size_hint=[1., .99/8]))
         self.add_widget(self.lay_ranks)
         self.flip_button = IconButton(size_hint=[.1,.1], pos_hint={'x':0, 'y':0},
             icon='img/flip.png')

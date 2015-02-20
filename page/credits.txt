@@ -1,4 +1,4 @@
-﻿         * * *
+﻿        * * *
 
 Native user interface
     Kivy framework
@@ -21,4 +21,4 @@ Nuvola (David Vignoni)
 Programming and design
      Victor RENÉ
 
-         * * *
+        * * *

@@ -6,4 +6,4 @@ at the bottom.
 During a game you can click the switch button to alternate between learn
 mode and play mode. In learning mode, you follow the moves and try to
 remember them. In the playing mode, you replay those moves as accurately
-as possible to get the best score. Sorces are ranked from S to E.
+as possible to get the best score. Scores are ranked from S to E.

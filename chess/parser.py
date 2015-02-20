@@ -67,34 +67,34 @@ def origin_hint(move):
   
 # //http://en.wikipedia.org/wiki/Portable_Game_Notation
 def read_algebraic(board, move):
-    input = None
-    if move[0] == 'O': # castle
-        if board.side_to_move == -1:
-            if move == "O-O": # short
-                board.squares[5][7] = 'r'
-                board.squares[6][7] = 'k'
-                board.squares[7][7] = ' '
-                board.squares[4][7] = ' '
-                input = ([4, 7], [6, 7])
-            elif move == "O-O-O": # long
-                board.squares[3][7] = 'r'
-                board.squares[2][7] = 'k'
-                board.squares[0][7] = ' '
-                board.squares[4][7] = ' '
-                input = ([4, 7], [2, 7])
-        else:
-            if move == "O-O": # short
-                board.squares[5][0] = 'R'
-                board.squares[6][0] = 'K'
-                board.squares[7][0] = ' '
-                board.squares[4][0] = ' '
-                input = ([4, 0], [6, 0])
-            elif move == "O-O-O": # long
-                board.squares[3][0] = 'R'
-                board.squares[2][0] = 'K'
-                board.squares[0][0] = ' '
-                board.squares[4][0] = ' '
-                input = ([4, 0], [2, 0])
+  input = None
+  if move[0] == 'O': # castle
+      if board.side_to_move == -1:
+          if move == "O-O": # short
+              board.squares[5][7] = 'r'
+              board.squares[6][7] = 'k'
+              board.squares[7][7] = ' '
+              board.squares[4][7] = ' '
+              input = ([4, 7], [6, 7])
+          elif move == "O-O-O": # long
+              board.squares[3][7] = 'r'
+              board.squares[2][7] = 'k'
+              board.squares[0][7] = ' '
+              board.squares[4][7] = ' '
+              input = ([4, 7], [2, 7])
+      else:
+          if move == "O-O": # short
+              board.squares[5][0] = 'R'
+              board.squares[6][0] = 'K'
+              board.squares[7][0] = ' '
+              board.squares[4][0] = ' '
+              input = ([4, 0], [6, 0])
+          elif move == "O-O-O": # long
+              board.squares[3][0] = 'R'
+              board.squares[2][0] = 'K'
+              board.squares[0][0] = ' '
+              board.squares[4][0] = ' '
+              input = ([4, 0], [2, 0])
   else: # not castle
     # if 'x' in move: # capture
       # captured = self.squares[destfile][destrank]
