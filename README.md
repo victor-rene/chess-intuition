@@ -1,4 +1,5 @@
 # chess-intuition
+
 Chess Intuition
 ===============
 
@@ -19,6 +20,13 @@ games without the help of an engine. Challenging you to replay games
 from chess world championships, this collection of games from world
 championships is a tool, that can improve your positional understanding
 and vision, by forcing you to recall ideas from elite games.
+
+Get it on Google play
+---------------------
+<a href="https://play.google.com/store/apps/details?id=com.logiqub.chessintuition">
+  <img alt="Get it on Google Play"
+       src="https://developer.android.com/images/brand/en_generic_rgb_wo_45.png" />
+</a>
 
 Screenshots
 -----------
